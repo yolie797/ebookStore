@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  
+   
+   
+  </head>
+
+  <body>
+    
+    <div class="container-form">
+      <form action="#" class="login active">
+        <h2 class="title">Login</h2>
+       
+        <div class="form-group">
+          <label for="email">Email</label>
+          <div class="input-group">
+            <input type="text" id="email_i" placeholder="Email address">
+           
+          </div>
+        </div>
+       
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div class="input-group">
+            <input type="password" id="pwd_i" placeholder="Your password">
+         
+          </div>
+         
+        </div>
+        <button type="button" class="btn-submit" onclick="login();">Login</button></a> 
+        <a href="#">Forgot password?</a>
+        <p>I don't have an account. <a href="#" onclick="switchForm('register', event)">Register</a></p>
+      </form>
+  
+      <form action="#" class="register active">
+        <h2 class="title">Register</h2>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <div class="input-group">
+            <input type="name" id="fullname" placeholder="Full Names">
+           
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <div class="input-group">
+            <input type="email" id="email" placeholder="Email address">
+            
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <div class="input-group">
+            <input type="tel" id="cell" placeholder="Enter Your Number">
+      
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div class="input-group">
+            <input type="password" id="pwd" placeholder="Your password">
+        
+          </div>
+     
+        </div>
+        <div class="form-group">
+          <label for="confirm-pass">Confirm password</label>
+          <div class="input-group">
+            <input type="password" id="pwd2" placeholder="Enter password again">
+            <i class="uil uil-eye-slash"></i>
+         
+        
+          </div>
+        </div>
+        <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+        <button type="submit" class="btn-submit" onclick="register();">Register</button>
+        <p>I already have an account. <a href="#" onclick="switchForm('login', event)">Login</a></p>
+      </form>
+    </div>
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
