@@ -417,9 +417,7 @@ a:hover {
 	color: var(--dark-blue);
 }
 body {
-	background-image: url(images/bookstore-book-shop-store-literature-bookstore-book-shop-store-literature-building-paper-reading-bookshop-157651147.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+
   background-size: 70%;
 	display: flex;
 	justify-content: center;
